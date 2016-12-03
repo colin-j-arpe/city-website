@@ -1,0 +1,38 @@
+$main-dark:	#331900;
+$main-light: #ffeda2;
+$prim-dark: #001933;
+$prim-med: #004c99;
+$prim-light: #9999ff;
+$sec-dark: #660000;
+$sec-med: #cc0000;
+$sec-light: #ff6666;
+
+body	{
+	background-color: $main-light;
+}
+
+.page-title	{
+	color: $main-dark;	
+}
+
+.log-in 	{
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	.log-in-button	{
+		padding: 10px;
+		background-color: $sec-med;
+		border: 1px solid $prim-dark;
+		color: $prim-dark;
+	}
+}
+
+.nav-menu	{
+	transform: rotate(90deg);
+	.nav-menu-item	{
+		display: inline;
+	}
+	.nav-menu-link	{
+		text-decoration: none;
+	}
+}

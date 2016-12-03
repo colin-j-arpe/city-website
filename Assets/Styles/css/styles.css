@@ -1,0 +1,24 @@
+body {
+  background-color: #ffeda2; }
+
+.page-title {
+  color: #331900; }
+
+.log-in {
+  position: absolute;
+  top: 20px;
+  right: 20px; }
+  .log-in .log-in-button {
+    padding: 10px;
+    background-color: #cc0000;
+    border: 1px solid #001933;
+    color: #001933; }
+
+.nav-menu {
+  transform: rotate(90deg); }
+  .nav-menu .nav-menu-item {
+    display: inline; }
+  .nav-menu .nav-menu-link {
+    text-decoration: none; }
+
+/*# sourceMappingURL=styles.css.map */
