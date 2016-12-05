@@ -1,8 +1,12 @@
 body {
   background-color: #ffeda2; }
 
+h1, h2, h3, h4, h5, h6 {
+  color: #001933; }
+
 .page-title {
-  color: #331900; }
+  color: #331900;
+  font-weight: bolder; }
 
 .log-in {
   position: absolute;
@@ -10,15 +14,36 @@ body {
   right: 20px; }
   .log-in .log-in-button {
     padding: 10px;
-    background-color: #cc0000;
-    border: 1px solid #001933;
+    background-color: #ff6666;
+    border: 2px solid #001933;
     color: #001933; }
 
 .nav-menu {
-  transform: rotate(90deg); }
+  transform: rotate(-90deg);
+  display: block; }
   .nav-menu .nav-menu-item {
-    display: inline; }
+    display: block; }
   .nav-menu .nav-menu-link {
-    text-decoration: none; }
+    text-decoration: none;
+    color: #004c99; }
+    .nav-menu .nav-menu-link .nav-menu-link:hover {
+      color: #001933; }
+
+.carousel .item {
+  text-align: center; }
+
+.top-stories img {
+  width: 90%;
+  text-align: center;
+  border: 2px solid #004c99; }
+
+.modal-content {
+  background-color: #ff6666;
+  border: 2px double #cc0000; }
+  .modal-content .modal-header {
+    color: #660000;
+    text-align: center; }
+  .modal-content .modal-body {
+    text-align: center; }
 
 /*# sourceMappingURL=styles.css.map */

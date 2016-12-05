@@ -1,18 +1,16 @@
-$main-dark:	#331900;
-$main-light: #ffeda2;
-$prim-dark: #001933;
-$prim-med: #004c99;
-$prim-light: #9999ff;
-$sec-dark: #660000;
-$sec-med: #cc0000;
-$sec-light: #ff6666;
+@import "colours";
 
 body	{
 	background-color: $main-light;
 }
 
+h1, h2, h3, h4, h5, h6	{
+	color: $prim-dark;
+}
+
 .page-title	{
-	color: $main-dark;	
+	color: $main-dark;
+	font-weight: bolder;
 }
 
 .log-in 	{
@@ -21,18 +19,49 @@ body	{
 	right: 20px;
 	.log-in-button	{
 		padding: 10px;
-		background-color: $sec-med;
-		border: 1px solid $prim-dark;
+		background-color: $sec-light;
+		border: 2px solid $prim-dark;
 		color: $prim-dark;
 	}
 }
 
 .nav-menu	{
-	transform: rotate(90deg);
+	transform: rotate(-90deg);
+	display: block;
 	.nav-menu-item	{
-		display: inline;
+		display: block;
 	}
 	.nav-menu-link	{
 		text-decoration: none;
+		color: $prim-med;
+		.nav-menu-link:hover	{
+			color: $prim-dark;
+		}
+	}
+}
+
+.carousel	{
+	.item 	{
+		text-align: center;
+	}
+}
+
+.top-stories	{
+	img 	{
+		width: 90%;
+		text-align: center;
+		border: 2px solid $prim-med;
+	}
+}
+
+.modal-content	{
+	background-color: $sec-light;
+	border: 2px double $sec-med;
+	.modal-header	{
+		color: $sec-dark;
+		text-align: center;
+	}
+	.modal-body	{
+		text-align: center;
 	}
 }
